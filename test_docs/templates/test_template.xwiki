@@ -1,0 +1,12 @@
+
+This is a test XWiki template, showing you the page <<page_name>>.
+
+It's standard XWiki format, so you can use XWiki syntax to write your template.
+
+----
+
+<%page_contents%>
+
+----
+
+
