@@ -11,7 +11,7 @@ def read(fname):
 
 setup(
     name = "sphinx-xwiki-builder",
-    version = "0.1.0",
+    version = "0.1.1",
     author = "Eron Hennessey",
     author_email = "eron@abstrys.com",
     description = "Builds Sphinx documentation source to XWiki-syntax output",
