@@ -52,15 +52,13 @@ xwiki_root_page
 Set the XWiki page that serves as the "root" page. This is the page that will contain the contents
 of your Sphinx documentation's ``index.rst`` file.
 
-All other pages in the documentation will be sub-pages of the root page:
+All other pages in the documentation will be sub-pages of the root page::
 
-... parsed-literal::
-
-    +-- The `index.rst` file.
-    |
-    |          +-- All other pages in the toctree.
-    |          |
-    :samp:`{RootPage}/{PageName}`
+    {RootPage}/{PageName}
+     |          |
+     |          +-- All other pages in the toctree.
+     |
+     +-- The `index.rst` file.
 
 No attempt is made to create further sub-pages to avoid incompatibility with normal Sphinx projects,
 and to prevent linking issues due to varying local paths.
